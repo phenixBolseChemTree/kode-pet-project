@@ -10,15 +10,15 @@ const MainPage = () => {
   return (
     <div>
       <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Header />} >
-              <Route path="/" element={<All />}/>
-              <Route path="designers" element={<Designers />} />
-              <Route path="analysts" element={<Analysts />} />
-              <Route path="managers" element={<Managers />} />
-              <Route path="io" element={<Io />} />
-            </Route>
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Header />} >
+            <Route path="/" element={<All />} />
+            <Route path="designers" element={<Designers />} />
+            <Route path="analysts" element={<Analysts />} />
+            <Route path="managers" element={<Managers />} />
+            <Route path="io" element={<Io />} />
+          </Route>
+        </Routes>
       </BrowserRouter>
     </div>
   )

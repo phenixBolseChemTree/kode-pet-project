@@ -1,4 +1,7 @@
+import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+// import { usersSliceActions } from '../../slices/reducers/usersSlice';
 import Header from './Header';
 import All from './All';
 import Designers from './Designers';
@@ -7,6 +10,17 @@ import Managers from './Managers';
 import Io from './Io';
 
 const MainPage = () => {
+  const dispatch = useDispatch();
+  const users = useSelector((state:any) => state.users.users);
+
+  console.log(users);
+  
+
+  useEffect(() => {
+    // Вы можете диспетчить ваше действие fetchDataAsync здесь, если это необходимо
+    // dispatch(usersSliceActions.fetchDataAsync());
+  }, [dispatch]);
+
   return (
     <div>
       <BrowserRouter>

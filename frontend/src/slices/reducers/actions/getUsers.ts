@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const fetchData = async () => {
+const fetchUsersData = async () => {
   const url = "https://stoplight.io/mocks/kode-frontend-team/koder-stoplight/86566464/users?__example=all";
   const options = {
     method: "GET",
@@ -11,10 +11,10 @@ const fetchData = async () => {
       url,
       ...options,
     });
-    console.log(response.data);
+    return response.data.items;
   } catch (error) {
     console.error(error);
   }
 };
 
-export default fetchData; // перенести этот вызов в redux
+export default fetchUsersData; // перенести этот вызов в redux

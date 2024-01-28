@@ -1,7 +1,15 @@
+import { useEffect } from 'react';
 import './App.css';
 import MainPage from './components/pages/MainPage';
+import { usersSliceActions } from './slices/reducers/usersSlice';
+import { useDispatch } from 'react-redux';
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    (usersSliceActions.fetchDataAsync());
+  }, [ dispatch ]);
+
 
   return (
     <div className="App">

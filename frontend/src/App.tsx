@@ -1,35 +1,16 @@
-import axios from 'axios';
+// import fetchData from './components/apiFunc/getUsers';
 import './App.css';
-import Main from './components/mainPage/Main';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { PageOne, PageTwo } from './components/Pages';
+// import Header from './components/pages/Header';
+// import All from './components/pages/All';
+import MainPage from './components/pages/MainPage';
 
 function App() {
-  
-const fetchData = async () => {
-  const url = "https://stoplight.io/mocks/kode-frontend-team/koder-stoplight/86566464/users?__example=all";
-
-  const options = {
-    method: "GET",
-    headers: { "Content-Type": "application/json" },
-  };
-
-  try {
-    const response = await axios.request({
-      url,
-      ...options,
-    });
-    
-    console.log(response.data);
-  } catch (error) {
-    console.error(error);
-  }
-};
-
-// Call the async function
-fetchData();
 
   return (
     <div className="App">
-      <Main />
+      <MainPage />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import MainPage from './components/pages/MainPage';
 import { usersSliceActions } from './slices/reducers/usersSlice';
 import { useDispatch } from 'react-redux';
 
-function App() {
+const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     (usersSliceActions.fetchDataAsync());

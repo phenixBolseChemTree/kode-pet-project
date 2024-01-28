@@ -1,9 +1,9 @@
-const All = () => {
+const Io = () => {
   return (
     <div className="root">
-      All
+      Io
     </div>
   )
 }
 
-export default All;
+export default Io;

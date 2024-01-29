@@ -1,6 +1,6 @@
 // slices/usersSlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import fetchUsersData from './actions/getUsers';
+import fetchUsersData from './actions/fetchUsersData';
 
 interface UsersState {
   users: any[];

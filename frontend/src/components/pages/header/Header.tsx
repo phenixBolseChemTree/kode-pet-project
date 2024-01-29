@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './header.module.css';
 
 const Header = () => {
-  const [formText, setFormText] = useState<string>('');
+  const [ formText, setFormText ] = useState<string>('');
 
   const handleEdit = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormText(e.target.value);
@@ -17,21 +17,21 @@ const Header = () => {
       <div className={styles.navBlock}>
         <nav>
           <ul>
-            <li>
-              <Link to='/'>All</Link>
-            </li>
-            <li>
-              <Link to='/designers'>Designers</Link>
-            </li>
-            <li>
-              <Link to='/analysts'>Analysts</Link>
-            </li>
-            <li>
-              <Link to='/managers'>Managers</Link>
-            </li>
-            <li>
-              <Link to='/io'>Io</Link>
-            </li>
+
+            <Link to='/'>All</Link>
+
+
+            <Link to='/designers'>Designers</Link>
+
+
+            <Link to='/analysts'>Analysts</Link>
+
+
+            <Link to='/managers'>Managers</Link>
+
+
+            <Link to='/io'>Io</Link>
+
           </ul>
         </nav>
       </div>

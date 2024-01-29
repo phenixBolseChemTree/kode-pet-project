@@ -5,8 +5,9 @@ import styles from './layout.module.css'
 const Layout = () => {
 
   return (
-    <div className={styles.root}>
+    <div className={styles.rootLayout}>
       <Header />
+      <hr />
       <Outlet />
     </div>
   )

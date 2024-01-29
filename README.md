@@ -1,5 +1,8 @@
 # kode-pet-project
 
+#### DEV ЗАПУСК
+- make start
+
 ## Тестовое задание на стажировку в компания [KODE](https://kode.ru/)
 
 ### [Тестовое задание](https://github.com/appKODE/trainee-test-frontend)

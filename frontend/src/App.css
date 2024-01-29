@@ -5,3 +5,10 @@
   width: 375px; 
   background-color: red;
 } */
+
+.App {
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  background-color: antiquewhite;
+}

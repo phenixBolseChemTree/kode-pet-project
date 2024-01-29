@@ -1,10 +1,10 @@
 # kode-pet-project
 
-## тестовое задание на стажировку в компания [KODE](https://kode.ru/)
+## Тестовое задание на стажировку в компания [KODE](https://kode.ru/)
 
-## [тестовое задание](https://github.com/appKODE/trainee-test-frontend)
+### [Тестовое задание](https://github.com/appKODE/trainee-test-frontend)
 
-### стек используемых технологий в проекте (в проекте используются все ниже перечисленные)
+### Стек используемых технологий в проекте (в проекте используются все ниже перечисленные)
 #### Обязательный стэк
 - Create React App
 - React Router
@@ -14,3 +14,6 @@
 - Typescript
 - redux
 - styled-components
+
+
+### Макет проекта [Figma](https://www.figma.com/file/GRRKONipVClULsfdCAuVs1/KODE-Trainee-Dev-Осень'21?node-id=11%3A14414)

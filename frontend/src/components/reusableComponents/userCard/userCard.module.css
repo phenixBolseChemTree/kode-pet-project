@@ -1,0 +1,72 @@
+.root {
+  /* background-color: aqua; */
+}
+
+.cardContainer {
+  width: 343px;
+  height: 84px;
+    /* background-color: aqua; */
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 88px;
+  height: 84px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  /* background-color: blue; */
+}
+
+.textContainer {
+  width: 226px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50px;
+}
+
+.fullName {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.fullNameAll {
+  margin: 0;
+  color: #050510;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.userTag {
+  margin: 0;
+  color: #97979B;
+  line-height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.position {
+  margin: 0;
+  color: #55555C;
+  line-height: 16px;
+  font-weight: 500;
+  font-size: 13px;
+}
